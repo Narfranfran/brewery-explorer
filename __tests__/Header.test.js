@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Header from '../components/layout/Header';
+import Header from '../app/components/layout/Header';
 
 describe('Header component', () => {
   it('should render the header with title and navigation', () => {
