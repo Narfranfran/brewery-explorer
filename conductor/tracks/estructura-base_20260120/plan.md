@@ -10,7 +10,7 @@
     - [ ] Implementar configuración de testing (ej. Jest con React Testing Library).
 - [x] Task: Conductor - User Manual Verification 'Configuración de Estilos y Entorno' (Protocol in workflow.md)
 
-## Fase 2: Desarrollo de Componentes Globales
+## Fase 2: Desarrollo de Componentes Globales [checkpoint: f159d93]
 
 - [x] Task: Crear directorio de componentes `app/components/`.
     - [x] Escribir tests para verificar la existencia del directorio.
@@ -21,7 +21,7 @@
 - [x] Task: Crear `Footer.jsx` en `app/components/`.
     - [x] Escribir tests de integración para verificar la renderización del `Footer`.
     - [x] Implementar `app/components/Footer.jsx`.
-- [ ] Task: Conductor - User Manual Verification 'Desarrollo de Componentes Globales' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Desarrollo de Componentes Globales' (Protocol in workflow.md)
 
 ## Fase 3: Implementación de la Estructura de Layouts y Página Principal
 
