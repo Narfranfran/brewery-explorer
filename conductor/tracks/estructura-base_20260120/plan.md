@@ -12,15 +12,15 @@
 
 ## Fase 2: Desarrollo de Componentes Globales
 
-- [ ] Task: Crear directorio de componentes `app/components/`.
-    - [ ] Escribir tests para verificar la existencia del directorio.
-    - [ ] Implementar la creación del directorio.
-- [ ] Task: Crear `Header.jsx` en `app/components/`.
-    - [ ] Escribir tests de integración para verificar la renderización del `Header` con navbar y `Link`.
-    - [ ] Implementar `app/components/Header.jsx` usando daisyUI y Next.js `Link`.
-- [ ] Task: Crear `Footer.jsx` en `app/components/`.
-    - [ ] Escribir tests de integración para verificar la renderización del `Footer`.
-    - [ ] Implementar `app/components/Footer.jsx`.
+- [x] Task: Crear directorio de componentes `app/components/`.
+    - [x] Escribir tests para verificar la existencia del directorio.
+    - [x] Implementar la creación del directorio.
+- [x] Task: Crear `Header.jsx` en `app/components/`.
+    - [x] Escribir tests de integración para verificar la renderización del `Header` con navbar y `Link`.
+    - [x] Implementar `app/components/Header.jsx` usando daisyUI y Next.js `Link`.
+- [x] Task: Crear `Footer.jsx` en `app/components/`.
+    - [x] Escribir tests de integración para verificar la renderización del `Footer`.
+    - [x] Implementar `app/components/Footer.jsx`.
 - [ ] Task: Conductor - User Manual Verification 'Desarrollo de Componentes Globales' (Protocol in workflow.md)
 
 ## Fase 3: Implementación de la Estructura de Layouts y Página Principal
