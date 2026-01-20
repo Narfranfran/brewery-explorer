@@ -1,6 +1,6 @@
 // Fichero de servicio para interactuar con la API de Open Brewery DB
 
-const API_BASE_URL = 'https://api.openbrewerydb.org';
+const API_BASE_URL = 'https://api.openbrewerydb.org/v1';
 
 /**
  * Construye la URL final con los parámetros de consulta.
