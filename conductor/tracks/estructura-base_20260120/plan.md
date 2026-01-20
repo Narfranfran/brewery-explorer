@@ -2,7 +2,7 @@
 
 ## Fase 1: Configuración de Estilos y Entorno
 
-- [ ] Task: Verificar y configurar daisyUI con el tema "cupcake".
+- [~] Task: Verificar y configurar daisyUI con el tema "cupcake".
     - [ ] Escribir tests de integración para verificar que el tema "cupcake" de daisyUI está aplicado.
     - [ ] Implementar la configuración de `tailwind.config.js` y el `data-theme` en `app/layout.js`.
 - [x] Task: Configurar entorno de testing. [commit: 22da629]
