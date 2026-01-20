@@ -45,10 +45,10 @@
 
 ## Fase 4: Verificación Visual
 
-- [ ] Tarea: Integrar `useBreweries` en `app/dashboard/page.js`
-    - [ ] Importar `useBreweries` en `app/dashboard/page.js`
-    - [ ] Llamar al hook sin parámetros iniciales (para obtener todas las cervecerías por defecto)
-- [ ] Tarea: Renderizar datos crudos en pantalla
-    - [ ] Añadir `<pre>{JSON.stringify(data, null, 2)}</pre>` para mostrar el JSON de los datos.
-    - [ ] Asegurar que el componente sea un "Client Component" si usa el hook.
-- [ ] Tarea: Conductor - User Manual Verification 'Verificación Visual' (Protocol in workflow.md)
+- [x] Tarea: Integrar `useBreweries` en `app/dashboard/page.js`
+    - [x] Importar `useBreweries` en `app/dashboard/page.js`
+    - [x] Llamar al hook sin parámetros iniciales (para obtener todas las cervecerías por defecto)
+- [x] Tarea: Renderizar datos crudos en pantalla
+    - [x] Añadir `<pre>{JSON.stringify(data, null, 2)}</pre>` para mostrar el JSON de los datos.
+    - [x] Asegurar que el componente sea un "Client Component" si usa el hook.
+- [x] Tarea: Conductor - User Manual Verification 'Verificación Visual' (Protocol in workflow.md)
