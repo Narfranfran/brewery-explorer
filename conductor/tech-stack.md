@@ -9,6 +9,7 @@ This document outlines the core technologies and libraries used in the Brewery E
   - Used for building the user interface with a component-based architecture.
 - **Language:** JavaScript (ES6+)
   - The primary programming language for the entire application.
+  - **HTTP Requests:** Utilizes the native `fetch` API for all communication with external APIs.
 - **Styling:**
   - **Tailwind CSS:** A utility-first CSS framework for rapidly building custom designs.
   - **daisyUI:** A Tailwind CSS component library, providing pre-built UI components and themes for a "Fun & Curious" aesthetic.
