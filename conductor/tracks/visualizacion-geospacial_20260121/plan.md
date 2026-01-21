@@ -29,10 +29,10 @@
 
 ## Fase 4: Integración y Estilización Final [checkpoint: ]
 
-- [ ] Task: Integrar el mapa en la página del dashboard (`app/dashboard/page.js`).
-    - [ ] Sub-task: Importar el componente `Map` desde el wrapper (`app/components/Map`).
-    - [ ] Sub-task: Pasar los datos del hook `useBreweries` al componente `<Map />`.
-- [ ] Task: Aplicar los estilos necesarios con Tailwind CSS.
+- [x] Task: Integrar el mapa en la página del dashboard (`app/dashboard/page.js`). [e9b3c89]
+    - [x] Sub-task: Importar el componente Map desde el wrapper (`app/components/Map`).
+    - [x] Sub-task: Pasar los datos del hook useBreweries al componente `<Map />`.
+- [~] Task: Aplicar los estilos necesarios con Tailwind CSS.
     - [ ] Sub-task: Asignar una altura fija al contenedor del mapa (ej. `h-96`).
     - [ ] Sub-task: Asignar un `z-index` bajo al mapa (ej. `z-0`) para compatibilidad con el `Navbar`.
 - [ ] Task: Realizar pruebas manuales de la integración completa.
