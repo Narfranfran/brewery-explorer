@@ -8,16 +8,16 @@
 
 ## Fase 2: Desarrollo del Componente de Mapa (`MapClient`) [checkpoint: ]
 
-- [ ] Task: Escribir tests (Rojos) para el componente `MapClient`.
-    - [ ] Sub-task: Test para verificar que el componente renderiza un contenedor de mapa sin errores.
-    - [ ] Sub-task: Test para verificar que se renderiza un `Marker` por cada elemento válido en la prop `breweries`.
-    - [ ] Sub-task: Test para verificar que el `Popup` de un `Marker` muestra el nombre y tipo correctos de la cervecería.
-- [ ] Task: Implementar la lógica del componente `MapClient.jsx` para pasar los tests (Verde).
-    - [ ] Sub-task: Añadir `'use client';` al inicio del archivo.
-    - [ ] Sub-task: Importar dependencias de `react-leaflet`, `leaflet` y `leaflet-defaulticon-compatibility` (incluyendo su CSS).
-    - [ ] Sub-task: Crear la estructura del componente con `MapContainer` y `TileLayer`.
-    - [ ] Sub-task: Implementar el mapeo de la prop `breweries` para generar los `Marker` y `Popup` correspondientes.
-- [ ] Task: Refactorizar el código de `MapClient.jsx` y sus tests.
+- [x] Task: Escribir tests (Rojos) para el componente MapClient. [e47e33a]
+    - [x] Sub-task: Test para verificar que el componente renderiza un contenedor de mapa sin errores.
+    - [x] Sub-task: Test para verificar que se renderiza un Marker por cada elemento válido en la prop breweries.
+    - [x] Sub-task: Test para verificar que el Popup de un Marker muestra el nombre y tipo correctos de la cervecería.
+- [x] Task: Implementar la lógica del componente MapClient.jsx para pasar los tests (Verde). [e47e33a]
+    - [x] Sub-task: Añadir 'use client'; al inicio del archivo.
+    - [x] Sub-task: Importar dependencias de react-leaflet, leaflet y leaflet-defaulticon-compatibility (incluyendo su CSS).
+    - [x] Sub-task: Crear la estructura del componente con MapContainer y TileLayer.
+    - [x] Sub-task: Implementar el mapeo de la prop breweries para generar los Marker y Popup correspondientes.
+- [x] Task: Refactorizar el código de MapClient.jsx y sus tests. [e47e33a]
 - [ ] Task: Conductor - User Manual Verification 'Fase 2: Desarrollo del Componente de Mapa (`MapClient`)' (Protocol in workflow.md)
 
 ## Fase 3: Implementación del Wrapper de Carga Dinámica [checkpoint: ]
