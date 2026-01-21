@@ -10,7 +10,7 @@ import { getBreweries, getBreweryById } from '../services/breweryService';
  * @returns {{...}}
  */
 const useBreweries = (initialParams = {}) => {
-  const [data, setData] = useState(null);
+  const [breweries, setBreweries] = useState(null);
   const [isLoading, setIsLoading] = useState(true); // Start loading initially
   const [error, setError] = useState(null);
   const [params, setParams] = useState(initialParams);
@@ -27,7 +27,7 @@ const useBreweries = (initialParams = {}) => {
       } else {
         result = await getBreweries(fetchParams);
       }
-      setData(result);
+      setBreweries(result);
       setCurrentPage(fetchParams.page || 1);
       // Placeholder for total pages logic
       setTotalPages(prev => (result && result.length > 0 ? currentPage + 1 : prev));
@@ -52,7 +52,7 @@ const useBreweries = (initialParams = {}) => {
   };
 
   return {
-    data,
+    breweries,
     isLoading,
     error,
     currentPage,
