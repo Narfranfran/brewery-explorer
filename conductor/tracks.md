@@ -19,5 +19,5 @@ This file lists the development tracks for the "Brewery Explorer" project. Each 
 
 ---
 
-- [~] **Track: Bugfix: Visualizacion de Marcadores**
+- [x] **Track: Bugfix: Visualizacion de Marcadores**
 *Link: [./tracks/visualizacion-de-marcadores_20260121/](./tracks/visualizacion-de-marcadores_20260121/)*
