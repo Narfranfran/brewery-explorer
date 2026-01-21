@@ -20,12 +20,12 @@
 - [x] Task: Refactorizar el código de MapClient.jsx y sus tests. [e47e33a]
 - [~] Task: Conductor - User Manual Verification 'Fase 2: Desarrollo del Componente de Mapa (MapClient)' (Protocol in workflow.md)
 
-## Fase 3: Implementación del Wrapper de Carga Dinámica [checkpoint: ]
+## Fase 3: Implementación del Wrapper de Carga Dinámica [checkpoint: aa64e20]
 
 - [x] Task: Implementar el wrapper `app/components/Map/index.jsx`. [e553b5b]
     - [x] Sub-task: Usar next/dynamic para importar MapClient con ssr: false.
     - [x] Sub-task: Añadir el estado de carga loading que devuelva <p>Cargando mapa...</p>.
-- [ ] Task: Conductor - User Manual Verification 'Fase 3: Implementación del Wrapper de Carga Dinámica' (Protocol in workflow.md)
+- [~] Task: Conductor - User Manual Verification 'Fase 3: Implementación del Wrapper de Carga Dinámica' (Protocol in workflow.md)
 
 ## Fase 4: Integración y Estilización Final [checkpoint: ]
 
