@@ -32,10 +32,10 @@
 - [x] Task: Integrar el mapa en la página del dashboard (`app/dashboard/page.js`). [e9b3c89]
     - [x] Sub-task: Importar el componente Map desde el wrapper (`app/components/Map`).
     - [x] Sub-task: Pasar los datos del hook useBreweries al componente `<Map />`.
-- [~] Task: Aplicar los estilos necesarios con Tailwind CSS.
-    - [ ] Sub-task: Asignar una altura fija al contenedor del mapa (ej. `h-96`).
-    - [ ] Sub-task: Asignar un `z-index` bajo al mapa (ej. `z-0`) para compatibilidad con el `Navbar`.
-- [ ] Task: Realizar pruebas manuales de la integración completa.
+- [x] Task: Aplicar los estilos necesarios con Tailwind CSS. [CANCELLED: Estilos aplicados en tarea anterior]
+    - [x] Sub-task: Asignar una altura fija al contenedor del mapa (ej. `h-96`). [CANCELLED]
+    - [x] Sub-task: Asignar un `z-index` bajo al mapa (ej. `z-0`) para compatibilidad con el `Navbar`. [CANCELLED]
+- [~] Task: Realizar pruebas manuales de la integración completa.
     - [ ] Sub-task: Verificar que el mapa se carga y muestra los marcadores correctamente.
     - [ ] Sub-task: Verificar que al usar los filtros del dashboard, los marcadores del mapa se actualizan.
     - [ ] Sub-task: Confirmar que no hay conflictos de estilo (z-index) con otros componentes de la UI.
