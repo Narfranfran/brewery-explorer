@@ -19,7 +19,7 @@
 - [x] Task: Run the test suite and confirm that the failing test from Phase 1 now passes.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Implementation & Correction' (Protocol in workflow.md)
 
-## Phase 3: Verification & Cleanup
+## Phase 3: Verification & Cleanup [checkpoint: 2e767ff]
 
 - [ ] Task: Manually verify in the browser that the brewery markers are now appearing correctly on the map.
 - [ ] Task: Verify that the default Leaflet icons are loading. If not, investigate and implement a simple custom icon using `L.icon` as a fallback.
