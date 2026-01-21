@@ -21,7 +21,7 @@ describe('breweryService', () => {
       const params = { by_city: 'test_city' };
       const data = await getBreweries(params);
 
-      expect(fetch).toHaveBeenCalledWith('https://api.openbrewerydb.org/breweries?by_city=test_city');
+      expect(fetch).toHaveBeenCalledWith('https://api.openbrewerydb.org/v1/breweries?by_city=test_city');
       expect(data).toEqual(mockBreweries);
     });
 
@@ -46,7 +46,7 @@ describe('breweryService', () => {
 
       const data = await getBreweryById('test-id');
 
-      expect(fetch).toHaveBeenCalledWith('https://api.openbrewerydb.org/breweries/test-id');
+      expect(fetch).toHaveBeenCalledWith('https://api.openbrewerydb.org/v1/breweries/test-id');
       expect(data).toEqual(mockBrewery);
     });
 

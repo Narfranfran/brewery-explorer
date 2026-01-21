@@ -4,3 +4,12 @@
 // Used for __tests__/sample.test.js
 // Learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom'
+
+// Mock global fetch for all tests
+global.fetch = jest.fn();
+
+// Mock console.error to suppress expected errors in tests
+global.console = {
+  ...console,
+  error: jest.fn(),
+};
