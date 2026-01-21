@@ -19,6 +19,8 @@ This document outlines the core technologies and libraries used in the Brewery E
   - Used for integrating interactive maps to display brewery locations. `react-leaflet` provides React components for `Leaflet` maps.
 - **Charting Library:** `react-chartjs-2` (built on `Chart.js`)
   - Utilized for creating various statistical charts to visualize brewery data. `react-chartjs-2` offers React wrappers for `Chart.js`.
+  - **Leaflet Compatibility:** `leaflet-defaulticon-compatibility`
+    - Ensures proper display of default Leaflet marker icons in environments where Webpack/others might interfere.
 
 ## 3. Deployment
 - **Platform:** Vercel
