@@ -6,7 +6,20 @@ import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import 'leaflet-defaulticon-compatibility';
 
 const MapClient = ({ breweries = [] }) => {
+  // 1. Depuración: Verificar los datos que llegan
+  console.log('Datos en Mapa:', breweries);
+
   const defaultPosition = [40.416775, -3.703790]; // Madrid, Spain coordinates
+
+  // 2. Saneamiento y Conversión de Datos
+  // Filtra cervecerías con coordenadas inválidas y convierte a números.
+  const validBreweries = breweries
+    .filter(brewery => brewery.latitude != null && brewery.longitude != null)
+    .map(brewery => ({
+      ...brewery,
+      latitude: parseFloat(brewery.latitude),
+      longitude: parseFloat(brewery.longitude),
+    }));
 
   return (
     <MapContainer center={defaultPosition} zoom={6} scrollWheelZoom={false} style={{ height: '100%', width: '100%' }}>
@@ -14,16 +27,14 @@ const MapClient = ({ breweries = [] }) => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {breweries.map((brewery) => (
-        brewery.latitude && brewery.longitude ? (
-          <Marker key={brewery.id} position={[brewery.latitude, brewery.longitude]}>
-            <Popup>
-              <b>{brewery.name}</b>
-              <br />
-              {brewery.brewery_type && <span>Tipo: {brewery.brewery_type}</span>}
-            </Popup>
-          </Marker>
-        ) : null
+      {validBreweries.map((brewery) => (
+        <Marker key={brewery.id} position={[brewery.latitude, brewery.longitude]}>
+          <Popup>
+            <b>{brewery.name}</b>
+            <br />
+            {brewery.brewery_type && <span>Tipo: {brewery.brewery_type}</span>}
+          </Popup>
+        </Marker>
       ))}
     </MapContainer>
   );
