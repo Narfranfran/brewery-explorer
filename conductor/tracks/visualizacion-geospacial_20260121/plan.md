@@ -2,7 +2,7 @@
 
 ## Fase 1: Preparación y Estructura de Componentes [checkpoint: ]
 
-- [~] Task: Crear la estructura de directorios y archivos para los componentes del mapa (`app/components/Map/MapClient.jsx` y `app/components/Map/index.jsx`).
+- [x] Task: Crear la estructura de directorios y archivos para los componentes del mapa (`app/components/Map/MapClient.jsx` y `app/components/Map/index.jsx`). [c4fa3dc]
 - [ ] Task: Instalar las dependencias de Leaflet (`npm install leaflet react-leaflet leaflet-defaulticon-compatibility`).
 - [ ] Task: Conductor - User Manual Verification 'Fase 1: Preparación y Estructura de Componentes' (Protocol in workflow.md)
 
