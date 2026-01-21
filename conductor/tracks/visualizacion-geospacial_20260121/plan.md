@@ -1,6 +1,6 @@
 # Implementation Plan: Visualizacion Geospacial - Mapa Interactivo
 
-## Fase 1: Preparación y Estructura de Componentes [checkpoint: ]
+## Fase 1: Preparación y Estructura de Componentes [checkpoint: f89ecb6]
 
 - [x] Task: Crear la estructura de directorios y archivos para los componentes del mapa (`app/components/Map/MapClient.jsx` y `app/components/Map/index.jsx`). [c4fa3dc]
 - [x] Task: Instalar las dependencias de Leaflet (`npm install leaflet react-leaflet leaflet-defaulticon-compatibility`). [487cfc6]
