@@ -27,9 +27,26 @@ const MapClient = ({ breweries = [] }) => {
       {validBreweries.map((brewery) => (
         <Marker key={brewery.id} position={[brewery.latitude, brewery.longitude]}>
           <Popup>
-            <b>{brewery.name}</b>
-            <br />
-            {brewery.brewery_type && <span>Tipo: {brewery.brewery_type}</span>}
+            <div className="text-sm">
+              <p className="font-bold text-base">{brewery.name}</p>
+              <p className="capitalize italic text-gray-600">{brewery.brewery_type}</p>
+              <hr className="my-2" />
+              {brewery.address_1 && <p>{brewery.address_1}</p>}
+              <p>{brewery.city}, {brewery.state_province} {brewery.postal_code}</p>
+              {brewery.phone && <p className="mt-2">📞 {brewery.phone}</p>}
+              {brewery.website_url && (
+                <div className="mt-2">
+                  <a 
+                    href={brewery.website_url} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-blue-600 hover:underline"
+                  >
+                    Visitar sitio web
+                  </a>
+                </div>
+              )}
+            </div>
           </Popup>
         </Marker>
       ))}
