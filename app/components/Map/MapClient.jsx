@@ -6,9 +6,6 @@ import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import 'leaflet-defaulticon-compatibility';
 
 const MapClient = ({ breweries = [] }) => {
-  // 1. Depuración: Verificar los datos que llegan
-  console.log('Datos en Mapa:', breweries);
-
   const defaultPosition = [40.416775, -3.703790]; // Madrid, Spain coordinates
 
   // 2. Saneamiento y Conversión de Datos
