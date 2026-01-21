@@ -35,8 +35,8 @@
 - [x] Task: Aplicar los estilos necesarios con Tailwind CSS. [CANCELLED: Estilos aplicados en tarea anterior]
     - [x] Sub-task: Asignar una altura fija al contenedor del mapa (ej. `h-96`). [CANCELLED]
     - [x] Sub-task: Asignar un `z-index` bajo al mapa (ej. `z-0`) para compatibilidad con el `Navbar`. [CANCELLED]
-- [~] Task: Realizar pruebas manuales de la integración completa.
-    - [ ] Sub-task: Verificar que el mapa se carga y muestra los marcadores correctamente.
-    - [ ] Sub-task: Verificar que al usar los filtros del dashboard, los marcadores del mapa se actualizan.
-    - [ ] Sub-task: Confirmar que no hay conflictos de estilo (z-index) con otros componentes de la UI.
+- [x] Task: Realizar pruebas manuales de la integración completa. [c36ff5f]
+    - [x] Sub-task: Verificar que el mapa se carga y muestra los marcadores correctamente.
+    - [x] Sub-task: Verificar que al usar los filtros del dashboard, los marcadores del mapa se actualizan.
+    - [x] Sub-task: Confirmar que no hay conflictos de estilo (z-index) con otros componentes de la UI.
 - [ ] Task: Conductor - User Manual Verification 'Fase 4: Integración y Estilización Final' (Protocol in workflow.md)
