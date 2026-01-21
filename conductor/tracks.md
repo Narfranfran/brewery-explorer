@@ -16,3 +16,8 @@ This file lists the development tracks for the "Brewery Explorer" project. Each 
 
 - [x] **Track: Visualizacion Geospacial: Mapa Interactivo**
 *Link: [./tracks/visualizacion-geospacial_20260121/](./tracks/visualizacion-geospacial_20260121/)*
+
+---
+
+- [~] **Track: Bugfix: Visualizacion de Marcadores**
+*Link: [./tracks/visualizacion-de-marcadores_20260121/](./tracks/visualizacion-de-marcadores_20260121/)*
