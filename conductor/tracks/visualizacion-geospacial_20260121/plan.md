@@ -6,7 +6,7 @@
 - [x] Task: Instalar las dependencias de Leaflet (`npm install leaflet react-leaflet leaflet-defaulticon-compatibility`). [487cfc6]
 - [x] Task: Conductor - User Manual Verification 'Fase 1: Preparación y Estructura de Componentes' (Protocol in workflow.md) [checkpoint: 8711add]
 
-## Fase 2: Desarrollo del Componente de Mapa (`MapClient`) [checkpoint: ]
+## Fase 2: Desarrollo del Componente de Mapa (MapClient) [checkpoint: 982f134]
 
 - [x] Task: Escribir tests (Rojos) para el componente MapClient. [e47e33a]
     - [x] Sub-task: Test para verificar que el componente renderiza un contenedor de mapa sin errores.
@@ -18,7 +18,7 @@
     - [x] Sub-task: Crear la estructura del componente con MapContainer y TileLayer.
     - [x] Sub-task: Implementar el mapeo de la prop breweries para generar los Marker y Popup correspondientes.
 - [x] Task: Refactorizar el código de MapClient.jsx y sus tests. [e47e33a]
-- [ ] Task: Conductor - User Manual Verification 'Fase 2: Desarrollo del Componente de Mapa (`MapClient`)' (Protocol in workflow.md)
+- [~] Task: Conductor - User Manual Verification 'Fase 2: Desarrollo del Componente de Mapa (MapClient)' (Protocol in workflow.md)
 
 ## Fase 3: Implementación del Wrapper de Carga Dinámica [checkpoint: ]
 
