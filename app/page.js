@@ -1,24 +1,23 @@
 // app/page.js
 import Link from 'next/link';
 
+/**
+ * Página de inicio de la aplicación.
+ * Muestra una imagen de fondo temática y un mensaje de bienvenida con un enlace al dashboard.
+ */
 export default function HomePage() {
-  const svgBackground = `
-    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-      <g fill-rule="evenodd">
-        <g fill="#000000" fill-opacity="0.07">
-          <path opacity=".5" d="M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z"/>
-        </g>
-      </g>
-    </svg>
-  `;
-  const encodedSvg = `data:image/svg+xml;base64,${Buffer.from(svgBackground).toString('base64')}`;
+  const imageUrl = "https://images.unsplash.com/photo-1587883971690-de8b3d687364?auto=format&fit=crop&w=1920&q=80";
 
   return (
-    <main 
-      className="hero min-h-[calc(100vh-128px)]"
-      style={{ backgroundImage: `url("${encodedSvg}")` }}
+    // Contenedor principal que se expande para llenar el espacio y centrar su contenido.
+    <div 
+      className="absolute inset-0 flex items-center justify-center bg-cover bg-center"
+      style={{ backgroundImage: `url("${imageUrl}")` }}
     >
-      <div className="hero-overlay bg-opacity-60"></div>
+      {/* Capa semitransparente sobre la imagen para mejorar la legibilidad del texto */}
+      <div className="hero-overlay bg-opacity-70"></div>
+
+      {/* Contenido del "hero" centrado */}
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">Bienvenido a Brewery Explorer</h1>
@@ -30,6 +29,6 @@ export default function HomePage() {
           </Link>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

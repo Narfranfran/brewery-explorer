@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer className="footer footer-center p-4 bg-base-300 text-base-content">
       <aside>
-        <p>Proyecto para DWEC - 2024/2025 - Brewery Explorer</p>
+        <p>Proyecto para DWEC - 2026/27 - Brewery Explorer</p>
       </aside>
     </footer>
   );
