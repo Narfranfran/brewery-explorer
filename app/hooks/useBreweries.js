@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { getBreweries, getBreweryById } from '../services/breweryService';
 
 /**
- * Hook personalizado para gestionar la carga de datos de cervecerías desde la API.
+ * Hook personalizado para gestionar carga de datos de cervecerías desde la API.
  * Abstrae toda la lógica de estado (carga, error, datos) y la comunicación con el servicio.
  *
  * @param {object} initialParams - Parámetros iniciales para la primera carga de datos al montar el componente.
